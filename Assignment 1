@@ -1,6 +1,0 @@
-import nltk
-from nltk.tokenize import word_tokenize
-text = "Rohit Sharma is India CAptain."
-
-tokens = Word_tokenize(text)
-Print(tokens)
