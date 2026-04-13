@@ -1,0 +1,9 @@
+text,label
+I love this product,positive
+This is a great movie,positive
+I hate this product,negative
+Very bad experience,negative
+Congratulations you won,spam
+Call now for prize,spam
+Hello how are you,ham
+Let us meet tomorrow,ham
