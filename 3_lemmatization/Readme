@@ -1,0 +1,51 @@
+# NLP Practical 3 — Text Preprocessing and TF-IDF Representation
+
+## Aim
+
+To perform text cleaning, remove stop words, apply lemmatization, encode labels, and generate TF-IDF representations from a news dataset.
+
+## Dataset
+
+https://github.com/PICT-NLP/BE-NLP-Elective/blob/main/3-Preprocessing/News_dataset.pickle
+
+The dataset contains news articles along with their respective categories.
+
+## Requirements
+
+Python 3.x
+
+Required libraries:
+pip install pandas nltk scikit-learn
+
+Download NLTK resources:
+import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
+
+## Steps
+
+1. Load the dataset using pickle.
+2. Convert text to lowercase.
+3. Remove punctuation and numbers using regular expressions.
+4. Remove stopwords using NLTK.
+5. Apply lemmatization using WordNetLemmatizer.
+6. Encode the category labels using LabelEncoder.
+7. Generate TF-IDF representation using TfidfVectorizer.
+8. Save the TF-IDF output to a CSV file.
+
+## Expected Output
+
+* Cleaned text data
+* Stopword removed text
+* Lemmatized text
+* Encoded category labels
+* TF-IDF matrix
+* Saved CSV file containing TF-IDF values
+
+## How to Run
+
+python practical3.py
+
+## Conclusion
+
+This experiment demonstrates essential NLP preprocessing steps such as text cleaning, stopword removal, lemmatization, label encoding, and feature extraction using TF-IDF.
