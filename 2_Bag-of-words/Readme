@@ -1,0 +1,46 @@
+# NLP Practical 2 — Bag of Words, TF-IDF, and Word2Vec
+
+## Aim
+
+To implement Bag-of-Words representation, normalized word counts, TF-IDF representation, and Word2Vec embeddings using a car dataset.
+
+## Dataset
+
+https://www.kaggle.com/datasets/CooperUnion/cardataset
+
+The dataset contains information about different car models including manufacturer, model name, engine details, fuel type, and other attributes.
+
+## Requirements
+
+Python 3.x
+
+Required libraries:
+pip install pandas scikit-learn gensim numpy
+
+## Steps
+
+1. Load the car dataset using pandas.
+2. Combine relevant text columns such as Make and Model to form sentences.
+3. Convert text to lowercase.
+4. Apply Bag-of-Words using CountVectorizer.
+5. Calculate normalized word counts.
+6. Apply TF-IDF using TfidfVectorizer.
+7. Tokenize the sentences.
+8. Train a Word2Vec model using gensim.
+9. Extract word vectors and similarity between words.
+
+## Expected Output
+
+* Bag-of-Words matrix
+* Normalized count matrix
+* TF-IDF matrix
+* Word embeddings generated using Word2Vec
+* Similar words based on embedding similarity
+
+## How to Run
+
+python practical2.py
+
+## Conclusion
+
+This experiment demonstrates how textual data can be converted into numerical representations using Bag-of-Words, TF-IDF, and Word2Vec embeddings for machine learning tasks.
