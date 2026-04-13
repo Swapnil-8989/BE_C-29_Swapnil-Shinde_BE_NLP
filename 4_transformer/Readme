@@ -1,0 +1,40 @@
+# NLP Practical 4 — Transformer Model using PyTorch
+
+## Aim
+
+To implement a basic Transformer model from scratch using the PyTorch library.
+
+## Description
+
+Transformers are deep learning models widely used in natural language processing tasks such as translation, text generation, and question answering. They rely on self-attention mechanisms instead of recurrent structures like RNNs or LSTMs.
+
+## Requirements
+
+Python 3.x
+
+Required libraries:
+pip install torch
+
+## Steps
+
+1. Import PyTorch libraries.
+2. Define embedding layers.
+3. Implement multi-head attention mechanism.
+4. Apply feed-forward neural network layer.
+5. Define transformer class.
+6. Pass sample input through the transformer model.
+7. Observe output tensor shape.
+
+## Expected Output
+
+* Transformer model architecture
+* Output tensor after passing input through the model
+* Demonstration of attention-based processing
+
+## How to Run
+
+python practical4.py
+
+## Conclusion
+
+This experiment demonstrates the basic architecture of a Transformer model using PyTorch and highlights the importance of attention mechanisms in modern NLP systems.
